@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <title>Příklad DOM</title>
+</head>
+<body>
+  <h1 id="nadpis">Do You know what I think?</h1>
+  <button onclick="zmenNadpis()">Click me</button>
+  
+  <script>
+    function zmenNadpis() {
+      const nadpis = document.getElementById("nadpis");
+      nadpis.textContent = "That you're awkward.";
+    }
+  </script>
+</body>
+</html>
